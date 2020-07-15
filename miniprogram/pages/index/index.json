@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "bang":"/components/bang/bang",
+    "search":"/components/search/search",
+    "singers":"/components/singers/singers",
+    "play-list":"/components/play-list/play-list",
+    "tabs":"/components/tabs/index",
+    "tabbar":"/components/tabbar/tabbar"
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true
+}

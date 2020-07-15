@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "search":"/components/search/search",
+    "musiclist":"/components/musiclist/musiclist"
+  },
+  "navigationBarTitleText": "搜索"
+}

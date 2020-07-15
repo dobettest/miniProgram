@@ -1,0 +1,23 @@
+<view>
+<text style="font-weight:600;font-size:32rpx">心情</text>
+<block wx:for="{{filterA}}" wx:key="name">
+<view bindtap="setid" style="{{id==item.id?active:''}} " class="item" data-id="{{item.id}}">{{item.name}}</view>
+</block>
+</view>
+<view name="filterB">
+<text style="font-weight:600;font-size:32rpx">场景</text>
+<block wx:for="{{filterB}}" wx:key="name">
+<view bindtap="setid" style="{{id==item.id?active:''}} " class="item" data-id="{{item.id}}">{{item.name}}</view>
+</block>
+</view>
+<view name="filterC">
+<text style="font-weight:600;font-size:32rpx">年代</text>
+<block wx:for="{{filterC}}" wx:key="name">
+<view bindtap="setid" style="{{id==item.id?active:''}} " class="item" data-id="{{item.id}}">{{item.name}}</view>
+</block>
+</view>
+<view class="playlist-container">
+  <block wx:for="{{playlist}}" wx:key="_id">
+    <play-list playlist="{{item}}"></play-list>
+  </block>
+</view>

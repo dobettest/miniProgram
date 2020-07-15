@@ -1,0 +1,23 @@
+<cover-view class="tabbar">
+	<cover-view class="tab-bar-border" />
+	<cover-view class="tablist">
+		<cover-view class="tab-item" style="{{current==0?active:''}}" bindtap="handleItemChange" data-index="0">
+			<i class="iconfont {{tabList[0].iconPath}}" />
+			<cover-view>
+				发现
+			</cover-view>
+		</cover-view>
+		<cover-view class="tab-item mini" bindtap="handleItemChange" data-index="1">
+			<progress-circle percent="{{percent}}">
+				<cover-image wx:if="{{currentPic}}" src="{{currentPic}}" class="pic {{isPlaying?'rotation':'rotation-paused'}}">
+				</cover-image>
+				</progress-circle>
+		</cover-view>
+		<cover-view class="tab-item" style="{{current==2?active:''}}" bindtap="handleItemChange" data-index="2">
+			<i class="iconfont {{tabList[2].iconPath}}" />
+			<cover-view>
+				我的
+			</cover-view>
+		</cover-view>
+	</cover-view>
+</cover-view>

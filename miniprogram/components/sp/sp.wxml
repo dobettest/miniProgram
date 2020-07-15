@@ -1,0 +1,5 @@
+<view class="container">
+    <view class="item" wx:for="{{arr}}" wx:key="this">
+    <image src="{{item}}"></image>
+    </view>
+</view>

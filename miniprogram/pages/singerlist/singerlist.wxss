@@ -1,0 +1,13 @@
+/* pages/singerlist/singerlist.wxss */
+.active {
+  background-color: #FFE443;
+}
+.item {
+  padding: 0 10rpx;
+  display: inline-block;
+}
+.singers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

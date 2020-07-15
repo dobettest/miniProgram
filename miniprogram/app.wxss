@@ -1,0 +1,9 @@
+/**app.wxss**/
+@import 'iconfont.wxss';
+@import 'iconfont1.wxss';
+@font-face {
+  font-family:taobao;
+  src: url(//at.alicdn.com/t/font_1465189805_4518812.eot);              
+}
+
+

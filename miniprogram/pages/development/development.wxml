@@ -1,0 +1,8 @@
+<!--<progress-circle percent="0.4" radius="100">
+<view class="iconmi">
+<image src="/image/found.png"></image>
+</view> 
+</progress-circle>-->
+<view class="sp">
+<sp arr="{{arr}}"></sp>  
+</view>

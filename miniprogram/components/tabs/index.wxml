@@ -1,0 +1,16 @@
+<view class="tabBar">
+	<scroll-view scroll-x="true" enable-flex>
+		<view
+		 class="tab_item {{item.isActive?'active':''}}"
+		 wx:for="{{tabs}}"
+		 wx:key="this"
+		 bindtap="handleChange"
+		 data-id="{{item.id||item.value}}"
+		>{{item.name}}
+		</view>
+	</scroll-view>
+	<view class="More" wx:if="{{More}}" bindtap="more">
+		<i class="iconfont iconfont icongengduo" />
+	</view>
+</view>
+

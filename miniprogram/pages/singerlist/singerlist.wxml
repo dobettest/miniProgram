@@ -1,0 +1,13 @@
+<block wx:for="{{filterA}}" wx:key="name">
+<view bindtap="seta" style="{{prefix==item.value?active:''}} " class="item" data-prefix="{{item.value}}">{{item.name}}</view>
+</block>
+<view name="filterB">
+<block wx:for="{{filterB}}" wx:key="name">
+<view bindtap="setb"  style="{{category==item.value?active:''}} " class="item" data-category="{{item.value}}">{{item.name}}</view>
+</block>
+</view>
+<view class="singers-container">
+  <block wx:for="{{singerList}}" wx:key="_id">
+    <singers singer="{{item}}"></singers>
+  </block>
+</view>

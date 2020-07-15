@@ -1,0 +1,36 @@
+@import "../../iconfont1.wxss";
+.container {
+  padding: 10rpx;
+  position: relative;
+  background-color: #fff;
+}
+.container .search {
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  border: 1rpx solid #ccc;
+  border-radius: 16rpx;
+}
+.container .search input {
+  flex: 13;
+  display: block;
+  height: 100%;
+}
+.container .search input:focus {
+  border: 1px solid #FFE443;
+}
+.container .search i {
+  font-size: 60rpx;
+}
+.container .history_record {
+  padding: 0 10rpx;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 90rpx;
+  z-index: 1000;
+  background-color: #fff;
+}
+.container .history_record .record_list .list_item {
+  border-bottom: 1rpx solid #ccc;
+}

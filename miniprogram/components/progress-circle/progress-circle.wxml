@@ -1,0 +1,11 @@
+ <view class="progress-circle">
+ 	<!-- <view style="background-image:url({{svg}})" class="svg"> -->
+ 	<view class="progress-background">
+ 		<view class="circle" style="background-image:url({{c}})" />
+ 	</view>
+ 	<view class="progress-bar ">
+ 		<view class="circle" style="background-image:url({{c2}})" />
+ 	</view>
+ 	<!-- </view> -->
+ 	<slot></slot>
+ </view>

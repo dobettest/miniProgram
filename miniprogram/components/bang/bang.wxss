@@ -1,0 +1,42 @@
+.bang {
+  width: 220rpx;
+}
+.bang .header {
+  height: 150rpx;
+  width: 220rpx;
+  position: relative;
+}
+.bang .header .bgc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bang .header .bgc image {
+  height: 100%;
+  width: 100%;
+}
+.bang .header .top {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bang .header .top image {
+  width: 140rpx;
+  height: 90rpx;
+}
+.bang .name {
+  font-size: 30rpx;
+  width: 220rpx;
+  display: -webkit-box;
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "singers":"/components/singers/singers"
+  },
+  "navigationBarTitleText": "歌手列表"
+}

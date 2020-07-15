@@ -1,0 +1,9 @@
+<view class="bang">
+	<view class=".header">
+		<view class="bgc">
+			<image src="{{bang.pic}}" />
+		</view>
+	</view>
+ <view class="name"  wx:for="{{bang.musicList}}" wx:key="rid" bindtap="onSelect" data-musicid="{{item.rid}}" data-index="{{index}}"><text>{{index+1}}</text>{{item.name}}</view>
+</view>
+

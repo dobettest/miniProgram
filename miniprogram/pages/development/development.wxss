@@ -1,0 +1,14 @@
+/* pages/development/development.wxss */
+.iconmi{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.iconmi image{
+  width:88rpx;
+  height:88rpx;
+}
+.sp{
+  width:100%;
+  height:340rpx;
+}

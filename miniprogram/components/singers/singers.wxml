@@ -1,0 +1,7 @@
+<!--components/play-list/play-list.wxml-->
+<view class="singer-container" bind:tap="goToMusiclist">
+  <image src="{{ singer.pic}}" class="singer-img" lazy-load="{{true}}"></image>
+  <!-- <text class="singer-playcount">{{_count}}</text> -->
+  <view class="singer-name">{{singer.name}}</view>
+  <view class="singer-num">{{singer.musicNum}}首歌曲</view>
+</view>

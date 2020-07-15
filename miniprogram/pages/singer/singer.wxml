@@ -1,0 +1,8 @@
+<view class="header">
+<view class="bgc"><image src="{{singer.pic120}}"></image></view>
+<view class="info">
+<view class="hd"><image src="{{singer.pic120}}"></image></view>
+ <view class="detail-info"><rich-text nodes="{{singer.info}}"></rich-text></view>
+</view>
+</view>
+<view class="musiclist_wrap"><musiclist musiclist="{{musiclist}}"></musiclist></view>

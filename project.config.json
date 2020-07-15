@@ -1,0 +1,91 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wx52485072af456f95",
+	"projectname": "cloudmusic",
+	"libVersion": "2.11.3",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/development/development",
+					"pathName": "pages/development/development",
+					"query": "playlistId=911814137",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/player/player",
+					"pathName": "pages/player/player",
+					"query": "musicid=27984428",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/singerlist/singerlist",
+					"pathName": "pages/singerlist/singerlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/blog-edit/blog-edit",
+					"pathName": "pages/blog-edit/blog-edit",
+					"query": "nickName= \"智宏伟\"&avatarUrl=\"https://wx.qlogo.cn/mmopen/vi_32/qFpicpIFj8Itf0L7k…GWIWL5u1dJTt12k7HBxkBnrLWMXQUX5ppTrKHfHWLFuMA/132\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/profile",
+					"pathName": "pages/profile/profile",
+					"query": "nickName= \"智宏伟\"&avatarUrl=\"https://wx.qlogo.cn/mmopen/vi_32/qFpicpIFj8Itf0L7k…GWIWL5u1dJTt12k7HBxkBnrLWMXQUX5ppTrKHfHWLFuMA/132\"",
+					"scene": null
+				}
+			]
+		}
+	}
+}

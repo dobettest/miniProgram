@@ -1,0 +1,28 @@
+@import "../../iconfont1";
+.tabBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabBar .tab_item {
+  display: inline-block;
+  width: 180rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.tabBar .More {
+  vertical-align: middle;
+}
+.tabBar .More i {
+  font-size: 45rpx;
+  color: gray;
+}
+.active {
+  border-bottom: 1rpx solid red;
+  font-weight: 600;
+}
+scroll-view {
+  width: 540rpx;
+  white-space: nowrap;
+  text-align: center;
+}

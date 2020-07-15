@@ -1,0 +1,20 @@
+.progress-circle {
+  z-index: 180;
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-circle .circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.progress-circle .progress-bar view {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}

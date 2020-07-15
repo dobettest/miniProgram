@@ -1,0 +1,66 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="black-cover"></view>
+    <image class="logo" src="/image/logo.png"></image>
+    <image class="title" src="/image/title.png"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">云音乐</text>
+        <text class="version-text">v0.0.9</text>
+        <text class="version-text">公测</text>
+      </view>
+      <view bindtap="toggleLog">
+        <text class="version-log-link" wx:if="{{!showLog}}">更新日志</text> 
+        <text class="version-log-link" wx:else>简介</text> 
+      </view>
+    </view>
+    <view class="describe" wx:if="{{!showLog}}">
+        <text class="desc-title">简介</text>
+        <view class="desc-list">
+          <text class="desc-list-item">官网：https://we.cqu.pt、http://we.cqupt.edu.cn</text>
+          <text class="desc-list-item">Github：https://github.com/lanshan-studio/wecqupt</text>
+        </view>
+        <text class="desc-content">云音乐是一个微信小程序，是有别于订阅号/服务号的一种全新的连接用户与服务的方式，可以在微信内被便捷地获取和传播，同时具有出色的使用体验。</text>
+    </view>
+    <view class="log-list" wx:else>
+      <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v0.0.2 加强版</text>
+            <text class="desc-time">2020.6.23</text>
+          </view>
+          <text class="desc-content">完善功能</text>
+          <view class="desc-list">
+            <text class="desc-list-item">加入歌手列表</text>
+            <text class="desc-list-item">加入歌单列表</text>
+          </view>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">加入歌单详情列表</text>
+            <text class="desc-list-item">加入歌词功能和歌曲详情</text>
+          </view>
+      </view>
+            <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v0.0.1 基础先行版</text>
+            <text class="desc-time">2020.6.13</text>
+          </view>
+          <text class="desc-content">开发出基本功能</text>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">基础功能实现,能够播放后台歌单</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-lanshan">
+        <image src="/images/more/lanshan.png"></image>
+        <text>蓝山工作室</text>
+    </view>
+    <text>信息中心/信息化办 · 教育信息化创新创业协会</text>
+    <text>Copyright @ 2016 All Rights Reserved</text>
+  </view>
+</view>

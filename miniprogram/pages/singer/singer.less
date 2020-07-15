@@ -1,0 +1,46 @@
+.header{
+    position: relative;
+    height: 400rpx;
+    width: 100%;
+    .bgc{
+        height: 100%;
+        image{
+            filter:brightness(40%);
+            height: 100%;
+            width: 100%;
+         }
+    }
+    .info{
+        position: absolute;
+        top: 130rpx;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        .hd{
+            image{
+                padding: 0 15rpx;
+                width: 240rpx;
+                height: 300rpx;
+            }
+        }
+        .detail-info{
+
+    color: white;
+    font-size: 30rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:6;
+    rich-text {
+      height:300rpx;
+      overflow: hidden;
+    }
+        }
+
+    }
+  
+}
+.musiclist_wrap{
+    margin-top: 30rpx;
+}

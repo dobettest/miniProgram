@@ -1,0 +1,2 @@
+<search bindsearch="search"></search>
+<musiclist musiclist="{{musiclist}}"></musiclist>
